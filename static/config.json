@@ -1,0 +1,42 @@
+const positionConfig = {
+  "de_cache": {
+    "pos_x": -2000,
+    "pos_y": 3250,
+    "zoom": 5630
+  },
+  "de_cbble": {
+    "pos_x": -3840,
+    "pos_y": 3072,
+    "zoom": 6144
+  },
+  "de_dust2": {
+    "pos_x": -2476,
+    "pos_y": 3239,
+    "zoom": 4489
+  },
+  "de_inferno": {
+    "pos_x": -2087,
+    "pos_y": 3870,
+    "zoom": 5020
+  },
+  "de_mirage": {
+    "pos_x": -3230,
+    "pos_y": 1713,
+    "zoom": 5120
+  },
+  "de_nuke": {
+    "pos_x": -3453,
+    "pos_y": 2887,
+    "zoom": 7157
+  },
+  "de_overpass": {
+    "pos_x": -4831,
+    "pos_y": 1781,
+    "zoom": 5326
+  },
+  "de_train": {
+    "pos_x": -2477,
+    "pos_y": 2392,
+    "zoom": 4807
+  }
+}

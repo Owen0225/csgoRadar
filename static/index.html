@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CS:GO - Radar</title>
+</head>
+<link rel="stylesheet" href="/index.css">
+<script src="config.json"></script>
+<script src="/libs/d3.v4.min.js"></script>
+<script src="/libs/jquery.min.js"></script>
+<script src="/libs/socket.io.js"></script>
+<script src="/libs/hammer.min.js"></script>
+<script src="/utils.js"></script>
+<script src="/radar.js"></script>
+<script src="/index.js"></script>
+
+<body>
+
+<div class="container">
+    <div>
+        <label><input type="radio" name='map' value="de_cache" checked/>de_cache</label>
+        <label><input type="radio" name='map' value="de_cbble"/>de_cbble</label>
+        <label><input type="radio" name='map' value="de_dust2"/>de_dust2</label>
+        <label><input type="radio" name='map' value="de_inferno"/>de_inferno</label>
+        <label><input type="radio" name='map' value="de_mirage"/>de_mirage</label>
+        <label><input type="radio" name='map' value="de_nuke"/>de_nuke</label>
+        <label><input type="radio" name='map' value="de_overpass"/>de_overpass</label>
+        <label><input type="radio" name='map' value="de_train"/>de_train</label>
+    </div>
+    <canvas id="radar"></canvas>
+</div>
+</body>
+
+</html>
