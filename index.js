@@ -4,7 +4,7 @@ var server = require('http').Server(app);
 var io = require('socket.io').listen(server);
 var bodyParser = require('body-parser');
 
-var port =80;
+var port =89;
 
 // 地图数据
 var DUMPDATA = {};
